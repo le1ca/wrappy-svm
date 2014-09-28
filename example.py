@@ -1,14 +1,5 @@
-#wrappy-svm
-A Python class which provides Linear Support Vector Machine classification by
-interfacing with Octave.
+#!/usr/bin/env python
 
-##Requirements
-Runs on Python 2, since at least version 2.7.6. Requires GNU Octave, tested with
-version 3.8.1.
-
-##Usage
-
-```python
 import wrappy_svm
 
 # x - instance attribute tuples
@@ -26,4 +17,3 @@ print(classifier.hyperplane())
 
 # classify new tuples
 print(classifier.classify([0.5, 0.5]))
-```
